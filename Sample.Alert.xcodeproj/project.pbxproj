@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D40EEF01DF9494D00AB4246 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40EEEF1DF9494D00AB4246 /* HomeViewController.swift */; };
+		2D40EEF21DF9499D00AB4246 /* animationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40EEF11DF9499D00AB4246 /* animationButton.swift */; };
 		2D449F251DF9403900520A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D449F241DF9403900520A1E /* AppDelegate.swift */; };
 		2D449F271DF9403900520A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D449F261DF9403900520A1E /* ViewController.swift */; };
 		2D449F2A1DF9403900520A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D449F281DF9403900520A1E /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		2D449F2F1DF9403900520A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D449F2D1DF9403900520A1E /* LaunchScreen.storyboard */; };
 		2D449F3A1DF9403900520A1E /* Sample_AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D449F391DF9403900520A1E /* Sample_AlertTests.swift */; };
 		2D449F451DF9403900520A1E /* Sample_AlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D449F441DF9403900520A1E /* Sample_AlertUITests.swift */; };
+		2D4CE3691DF94BBC009E51D1 /* kyunto_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4CE3681DF94BBC009E51D1 /* kyunto_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D40EEEF1DF9494D00AB4246 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2D40EEF11DF9499D00AB4246 /* animationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animationButton.swift; sourceTree = "<group>"; };
 		2D449F211DF9403900520A1E /* Sample.Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.Alert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D449F241DF9403900520A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D449F261DF9403900520A1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		2D449F401DF9403900520A1E /* Sample.AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample.AlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D449F441DF9403900520A1E /* Sample_AlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_AlertUITests.swift; sourceTree = "<group>"; };
 		2D449F461DF9403900520A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4CE3681DF94BBC009E51D1 /* kyunto_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyunto_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		2D449F231DF9403900520A1E /* Sample.Alert */ = {
 			isa = PBXGroup;
 			children = (
+				2D40EEEF1DF9494D00AB4246 /* HomeViewController.swift */,
+				2D40EEF11DF9499D00AB4246 /* animationButton.swift */,
 				2D449F241DF9403900520A1E /* AppDelegate.swift */,
 				2D449F261DF9403900520A1E /* ViewController.swift */,
+				2D4CE3681DF94BBC009E51D1 /* kyunto_button.png */,
 				2D449F281DF9403900520A1E /* Main.storyboard */,
 				2D449F2B1DF9403900520A1E /* Assets.xcassets */,
 				2D449F2D1DF9403900520A1E /* LaunchScreen.storyboard */,
@@ -236,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D449F2F1DF9403900520A1E /* LaunchScreen.storyboard in Resources */,
+				2D4CE3691DF94BBC009E51D1 /* kyunto_button.png in Resources */,
 				2D449F2C1DF9403900520A1E /* Assets.xcassets in Resources */,
 				2D449F2A1DF9403900520A1E /* Main.storyboard in Resources */,
 			);
@@ -262,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D40EEF21DF9499D00AB4246 /* animationButton.swift in Sources */,
 				2D449F271DF9403900520A1E /* ViewController.swift in Sources */,
 				2D449F251DF9403900520A1E /* AppDelegate.swift in Sources */,
+				2D40EEF01DF9494D00AB4246 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +524,7 @@
 				2D449F4B1DF9403900520A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D449F4C1DF9403900520A1E /* Build configuration list for PBXNativeTarget "Sample.AlertTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +533,7 @@
 				2D449F4E1DF9403900520A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D449F4F1DF9403900520A1E /* Build configuration list for PBXNativeTarget "Sample.AlertUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +542,7 @@
 				2D449F511DF9403900520A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
